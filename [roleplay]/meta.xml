@@ -1,0 +1,14 @@
+<meta>
+  <info author="Rodrigo" type="gamemode" name="roleplay" description=""/>
+
+  <!-- Área das actions -->
+  <script src="action/onEnterServer.lua" type="server"/>
+  <script src="action/disableDefaultChat.lua" type="server"/>
+  <script src="action/customLocalChat.lua" type="server"/>
+
+  <!-- Área das talkactions -->
+  <script src="talkactions/getPosition.lua" type="command"/>
+
+  <!-- Área dos miscellaneous -->
+  <script src="miscellaneous/ambienceSound.lua" type="client"/>
+</meta>
